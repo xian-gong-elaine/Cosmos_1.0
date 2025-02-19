@@ -16,23 +16,3 @@
 
 ---
 
-## 📂 Repository Structure
-
-```plaintext
-├── data/
-│   ├── Cosmos_Dataset.csv         # Full dataset (ET23k)
-│   ├── ET100_List.csv             # Subset of 100 emerging technologies
-│   ├── technology_indices.csv     # Computed indices (Awareness, Deeptech, etc.)
-│   ├── metadata/                  # Additional metadata (e.g., Wikipedia links)
-├── notebooks/
-│   ├── 01_Data_Exploration.ipynb  # Initial data exploration
-│   ├── 02_Clustering_Analysis.ipynb  # Hierarchical clustering
-│   ├── 03_Index_Validation.ipynb  # Index validation and comparison
-├── src/
-│   ├── data_processing.py         # Scripts for preprocessing Wikipedia data
-│   ├── clustering.py              # Hierarchical clustering methods
-│   ├── index_computation.py       # Computation of technology indices
-├── figures/                        # Plots and visualizations
-├── README.md                       # This README file
-└── LICENSE                         # License file
-
