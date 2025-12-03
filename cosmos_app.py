@@ -17,11 +17,11 @@ st.caption("Explore your dataset with maps, charts and ridgeline-style time seri
 
 
 # ----------------- LOAD DATA -----------------
-DATA_PATH = "~/Data/Cosmos_Dataset.parquet"  # <- change this if needed
+DATA_PATH = "Data/Cosmos_Dataset.xlsx"  # <- change this if needed
 
 @st.cache_data
 def load_data(path: str) -> pd.DataFrame:
-    df = pd.read_parquet(path)
+    df = pd.read_excel(path)
     return df
 
 if not os.path.exists(DATA_PATH):
