@@ -17,7 +17,7 @@ st.caption("Explore your dataset with maps, charts and ridgeline-style time seri
 
 
 # ----------------- LOAD DATA -----------------
-DATA_PATH = "Data/Cosmos_Dataset.parquet"  # <- change this if needed
+DATA_PATH = "~/Data/Cosmos_Dataset.parquet"  # <- change this if needed
 
 @st.cache_data
 def load_data(path: str) -> pd.DataFrame:
